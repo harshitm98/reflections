@@ -1,0 +1,20 @@
+****
+Q. How can you use the commands git log and git diff to view the history of files?
+
+Use "cd <file name>" to open the file.
+Use "git log" to get the log of the commit
+Press Enter until you find the commit.
+Use "git diff <previous commit id> <wanted commit id>
+****
+Q GIT checkout?
+
+
+Use "git checkout" to change HEAD to selected <commit id>.
+Helps in debugging the code.
+
+Q HOME DIRECTORY
+
+Type "cd ~" to move to home directory
+
+Q How to make a directory?
+Use "mkdir <directory name>"
