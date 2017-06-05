@@ -1,0 +1,46 @@
+
+"git init"
+	if you have already open a repository using "cd <repository name>" and then type "ls -a"(shows the file in that repository and if it doesn't contain ".git" file that means that repository is not git repository yet and to make it a git repository use "git init")
+
+"git add"
+	it used to add files to your stagging area. "git add <file name>"
+
+"git commit"
+	this is finally used to commit your changes with suitable title
+
+"git status"
+	used to check the untracked or unadded files in repository
+
+"git diff"
+	<with no arguments> it compares changes made in working directory and staging area.
+
+"git diff --staged"
+	it compares changes made in staging area and commit1 (latest commit)
+
+"git diff <commit1> <commit2>"
+	compares changes made in commit1 and commit2
+
+"git checkout master"
+	When you have checkout an older commit, you were in detached head state. To fix that, run the command "git checkout master"
+
+"git branch <branch name>"
+	Creates a branch.
+
+"git branch"
+	Just to see all the branches.
+
+"git checkout <branch name>"
+	Checks out that branch and all your changes will be made to that branch
+
+"git log --graph --oneline <branch-name1> <branch-name2>"
+	To get visual representation of the commit history.
+
+"git merge <branch1> <branch2>"
+
+"git show <commit id>"
+	shows you the difference made in the commit when compared w/ its parent
+
+"git branch -d <branch name>"
+	Deletes the branch.
+
+

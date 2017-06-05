@@ -18,3 +18,4 @@ Type "cd ~" to move to home directory
 
 Q How to make a directory?
 Use "mkdir <directory name>"
+
